@@ -39,14 +39,20 @@ jobs:
       - name: Ejecutar script
         run: python preprocesamiento.py
   ## EVIDENCIAS
+  
   ## ▪ Comandos ejecutados
+  
 <img width="843" height="467" alt="image" src="https://github.com/user-attachments/assets/6083a643-9c15-4371-a2d3-3c0669eed35a" />
 <img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/cc55a399-5137-4e10-aa83-285a26ca317f" />
 <img width="901" height="473" alt="image" src="https://github.com/user-attachments/assets/2830c8c5-d1a6-4391-90b1-3355bcd90748" />
+
  ## ▪ Pull request y fusión en GitHub.
+ 
  <img width="767" height="406" alt="image" src="https://github.com/user-attachments/assets/0ed29172-0fcb-416e-a464-a7ff06b84e8c" />
  <img width="801" height="426" alt="image" src="https://github.com/user-attachments/assets/9fb4d173-8703-4aac-831b-13c6a8eb7135" />
+ 
  ## ▪ Ejecución exitosa de GitHub Actions.
+ 
  <img width="861" height="484" alt="image" src="https://github.com/user-attachments/assets/f5146e92-4b11-4ba9-9832-0de8e3f28f59" />
  <img width="877" height="493" alt="image" src="https://github.com/user-attachments/assets/d15fd597-c720-4500-9d90-37f2c0f3e801" />
 
