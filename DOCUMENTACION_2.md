@@ -24,10 +24,10 @@ Los resultados obtenidos mediante el codigo original y el codigo optimizado refl
 Los resultados obtenidos fueron los siguientes:
 
 - ## Codigo original:
-Tiempo obtenido: 0.2441 s
+Tiempo obtenido: 0.3914 segundos
 
 - ## Codigo optimizado (Numpy) :
-Tiempo obtenido: 1.1500 s 
+Tiempo obtenido: 1.0073 segundos
 
 Podemos observar que el tiempo de ejecucion del codigo obtimizado utilizando el cProfile es mayor debido a que este añade mas cargas extras lo cual hace que la ejecucion sea mas lenta.
 Por lo tanto sin el uso de cProfile la version optimizada seria mas eficiente debido a que habran menos iteraciones por el uso de la raiz cuadrada, mejor manejo de las listas y el uso de NUmpy
@@ -55,16 +55,25 @@ En el analisis de cProfile en el archivo " profiling_optimizado.txt " nos ayuda 
   ## Anexos
 
 - ## profiling_original
-<img width="1017" height="646" alt="image" src="https://github.com/user-attachments/assets/905ab765-a8ee-44ad-98a0-e5450a4a9d58" />
+<img width="1019" height="649" alt="image" src="https://github.com/user-attachments/assets/d05bb193-99e9-4f2f-af3f-ff84535cbe44" />
 
 - ## profiling_optimizado
-<img width="1022" height="637" alt="image" src="https://github.com/user-attachments/assets/2730efd6-16d9-4bc3-98ee-5d968d973f40" />
+<img width="1017" height="618" alt="image" src="https://github.com/user-attachments/assets/6df4c856-dea5-409c-a4d8-fd08c3930ebb" />
 
 - ## tiempos
-<img width="1015" height="643" alt="image" src="https://github.com/user-attachments/assets/ea5e0b78-826e-4a5a-87f4-2ed659097626" />
+<img width="1008" height="531" alt="image" src="https://github.com/user-attachments/assets/fb0cfb2f-b38c-4716-ae2e-346a2d3dda1c" />
+<img width="1013" height="622" alt="image" src="https://github.com/user-attachments/assets/f1bf8fdf-675c-4fc2-8639-e486125d8ce2" />
+<img width="1017" height="697" alt="image" src="https://github.com/user-attachments/assets/8dff9b7f-059b-4969-8780-87dbde7837cb" />
 
 - ## Graficos
-<img width="1020" height="656" alt="image" src="https://github.com/user-attachments/assets/486a1fa2-c8a1-46ce-8527-e234912c4012" />
+<img width="1018" height="549" alt="image" src="https://github.com/user-attachments/assets/7ccc3246-a5f6-49a4-92c9-ad043b251433" />
+
+- ## comparativa_tiempos.png
+<img width="1020" height="645" alt="image" src="https://github.com/user-attachments/assets/58879662-ab1c-4dca-8ffe-b2b5a4bd3791" />
+
+- ## distribucion_tiempos.png
+<img width="1014" height="644" alt="image" src="https://github.com/user-attachments/assets/682dddd7-ab6f-43cc-90f9-8833fe06d850" />
+
 
 
 
