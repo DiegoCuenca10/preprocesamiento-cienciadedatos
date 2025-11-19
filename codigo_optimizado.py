@@ -1,21 +1,22 @@
+import cProfile       # Se importa cProfile
+import numpy as np    # Se importa numpy
 
-import time
-import math
-
-inicio = time.time()
-
-def es_primo(n):
-    if n < 2:
+def es_primo_np(n):        # Funcion para verificar si un numero es primo 
+    if n < 2:              # Menor que 2 no es primo 
         return False
-    limite = int(math.sqrt(n)) + 1
-    for i in range(2, limite):
-        if n % i == 0:
+    limite = int(np.sqrt(n))
+    for i in range(2, limite + 1):        # Verifica los divisores hasta la raiz cuadrada
+        if n % i == 0:                    # Si es divisible entonces no es primo 
             return False
     return True
 
-primos = [num for num in range(1, 100001) if es_primo(num)]
+def obtener_primos_np():
+    numeros = np.arange(1, 100000)      # Genera el array de numeros usando el numpy
+    return [n for n in numeros if es_primo_np(n)]   # Lista de primos usando comprension de las listas 
 
-fin = time.time()
+# Guardar profiling en archivo
+cProfile.run("obtener_primos_np()", filename="profiling_optimizado.txt")  # Ejecuta el profiling y se lo guarda en el archivo 
 
-print("La cantidad de numeros primos que se han encontrados:", len(primos))
-print("El tiempo de ejecución ya optimizado:", fin - inicio, "segundos")
+print("profiling_optimizado.txt generado correctamente.")
+
+
