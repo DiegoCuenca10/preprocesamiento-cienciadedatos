@@ -1,4 +1,4 @@
-<img width="1013" height="553" alt="image" src="https://github.com/user-attachments/assets/a9e7cfdb-ac27-444e-80d6-51a9f9c21cd3" />## 1. Introducción
+## 1. Introducción
 El objetivo del codigo original realizado fue encontrar todos los numeros que sean primos dentro de un rango de 1 a 100,000 en donde encontramos algunos problemas entre ellos el principal 
 el cual fue que el del bajo rendimiento esto se debe a que se utilizo un bucle el cual probaba cada uno de los divisores desde 1 hasta n, como tambien no aplique metodos matematicos mas 
 eficientes como puede ser el uso de la raiz cuadrada y tambien no existio ningun tipo de analisis de rendimiento por lo tanto esto dio como resultado a un tiempo de ejcucion muy alto y de un
